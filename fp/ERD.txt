@@ -52,7 +52,7 @@ result_detail str
 
 Country
 -
-country_noc str
+country_noc str pk FK -< Country_pop.country_noc  FK -< Country_GDP.country_noc FK -< Athlete_bio.country_noc FK -< Athlete_event_results.country_noc FK -< Games_medal_tally.country_noc 
 country str
 
 Games
