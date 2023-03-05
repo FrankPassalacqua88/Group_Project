@@ -21,7 +21,7 @@ To date, we have found numerous sources to collect the following information:
 
 We are in the process of cleansing data for utilization.
 
-A list of resources is available here: 
+A list of resources is available here: [Resource Hyperlinks](https://github.com/FrankPassalacqua88/Olympic_Data_Analysis/blob/4bf8de5c99385051b0ad16081716bf3c53ba59b7/Resources/Hyperlinks/Resource_Hyperlinks.docx)
 
 **Questions to be Answered**
 1. Is there a correlation between a country's economic factors (GDP), demographics (population) and medal count?
