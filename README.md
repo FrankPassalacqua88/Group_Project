@@ -59,4 +59,4 @@ The final machine learning model and dashboard will primarily pull data in from 
 
 ### Dashboard
 
-After preliminary discussion, we believe we will utilize an html website to deliver the final presentation.  This is currently be tested for viability and will be determined shortly.
+After preliminary discussion, we believe we will utilize an html website to deliver the final presentation.  This is currently being tested for viability and will be determined shortly.
