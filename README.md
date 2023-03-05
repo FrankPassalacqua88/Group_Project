@@ -44,7 +44,7 @@ Additionally, the team has a rolling cycle of determining if/when meetings are n
 - [x] 3/01 - Class; discuss Random Forest as machine learning module and assign team tasks
 - [ ] 3/05 - Check-in to review progress of each task
 
-A list of team tasks has been documented and can be viewed here: **ADD FILE WITH TASKS**
+A list of team tasks has been documented and can be viewed here: [Team Notes](https://github.com/FrankPassalacqua88/Olympic_Data_Analysis/blob/4bf8de5c99385051b0ad16081716bf3c53ba59b7/Admin/Team_Notes.docx)
 
 ### Machine Learning Model
 
