@@ -57,7 +57,7 @@ A link to the initial model can be found here: **ENTER LINK TO PROVISIONAL MACHI
 
 ### Database 
 
-The final machine learning model and dashboard will primarily pull data in from cleansed CSV files.  After the datasets were located and exported, the team evaluated how each of the components of data related to one another via an [ERD](https://github.com/FrankPassalacqua88/Olympic_Data_Analysis/blob/097e394fb11aaeb831c7b5a3930cc990cdd31402/images/ERD.png) and some suggestions for improvement were discussed.  Once determine, the data was cleansed via Jupyter Notebook and Pandas. Examples of how the data has been cleansed, can be viewed via the below links:
+The final machine learning model and dashboard will primarily pull data in from cleansed CSV files.  After the datasets were located and exported, the team evaluated how each of the components of data related to one another via an [ERD](https://github.com/FrankPassalacqua88/Olympic_Data_Analysis/blob/097e394fb11aaeb831c7b5a3930cc990cdd31402/images/ERD.png) and suggestions to cleanse and improve the data was discussed.  This was accomplished via Jupyter Notebook and Pandas and examples of how the data has been cleansed can be viewed via the below links:
 
 1. [Cleaning Data File 1](https://github.com/FrankPassalacqua88/Olympic_Data_Analysis/blob/42d9fbe2bd781425c091011fd1685999287671fa/wpf/Cleaning.ipynb)
 2. [Cleaning Data File 2](https://github.com/FrankPassalacqua88/Olympic_Data_Analysis/blob/42d9fbe2bd781425c091011fd1685999287671fa/wpf/Cleaning2.ipynb)
