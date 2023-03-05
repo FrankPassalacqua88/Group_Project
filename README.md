@@ -43,7 +43,9 @@ Additionally, the team has a rolling cycle of determining if/when meetings are n
 - [x] 2/27 - Finalize topic (Olympic data)
 - [x] 2/28 - Class; enhance topic to include athlete bio data
 - [x] 3/01 - Class; discuss Random Forest as machine learning module and assign team tasks
-- [ ] 3/05 - Check-in to review progress of each task
+- [x] 3/05 - Check-in to review progress of each task
+- [ ] 3/06 - Subset meeting to discuss data intro
+- [ ] 3/07 - Class; round table to discuss status and address any issues
 
 A list of team tasks has been documented and can be viewed here: [Team Notes](https://github.com/FrankPassalacqua88/Olympic_Data_Analysis/blob/4bf8de5c99385051b0ad16081716bf3c53ba59b7/Admin/Team_Notes.docx)
 
@@ -55,7 +57,13 @@ A link to the initial model can be found here: **ENTER LINK TO PROVISIONAL MACHI
 
 ### Database 
 
-The final machine learning model and dashboard will primarily pull data in from cleansed CSV files.  After the datasets were located and exported, the team needs were determined and cleansed via **POSTGRES????? - ELABORATE HERE**.   Once this was completed, the files were ready for utilization and connected to the provisional machine learning model.
+The final machine learning model and dashboard will primarily pull data in from cleansed CSV files.  After the datasets were located and exported, the team evaluated how each of the components of data related to one another via an [ERD](https://github.com/FrankPassalacqua88/Olympic_Data_Analysis/blob/097e394fb11aaeb831c7b5a3930cc990cdd31402/images/ERD.png) and some suggestions for improvement were discussed.  Once determine, the data was cleansed via Jupyter Notebook and Pandas. Examples of how the data has been cleansed, can be viewed via the below links:
+
+1. [Cleaning Data File 1](https://github.com/FrankPassalacqua88/Olympic_Data_Analysis/blob/42d9fbe2bd781425c091011fd1685999287671fa/wpf/Cleaning.ipynb)
+2. [Cleaning Data File 2](https://github.com/FrankPassalacqua88/Olympic_Data_Analysis/blob/42d9fbe2bd781425c091011fd1685999287671fa/wpf/Cleaning2.ipynb)
+3. [Cleaning Data File 3](https://github.com/FrankPassalacqua88/Olympic_Data_Analysis/blob/b93ee9b55bb98d825a0c2eb33b12fb89544c7920/wpf/Cleaning3.ipynb)
+
+Now that the files are ready for utlization they will be connected to the provisional machine learning model.
 
 ### Dashboard
 
