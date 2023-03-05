@@ -33,6 +33,7 @@ A list of resources is available here: [Resource Hyperlinks](https://github.com/
 The team has created a Github to house the project as we complete each milestone that includes the following:
 - [x] A README.md to track progress status and final deliverable
 - [x] A Resources folder to house all data (draft and cleansed)
+- [x] An Admin folder to house meeting notes and agenda topics
 - [x] Individual member folders for draft code
 - [ ] WIP - Folder for Final Dashboard and Presentation
 - [ ] WIP - Additional files/folders to be discussed as needed
