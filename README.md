@@ -45,10 +45,11 @@ Additionally, the team has a rolling cycle of determining if/when meetings are n
 - [x] 2/23 - Initial meeting to discuss potential topics (Olympic data, Lottery, Food Stores) 
 - [x] 2/27 - Finalize topic (Olympic data)
 - [x] 2/28 - Class; enhance topic to include athlete bio data
-- [x] 3/01 - Class; discuss Random Forest as machine learning module and assign team tasks
+- [x] 3/01 - Class; discuss Random Forest as machine learning model and assign team tasks
 - [x] 3/05 - Check-in to review progress of each task
-- [ ] 3/06 - Subset meeting to discuss data intro
-- [ ] 3/07 - Class; round table to discuss status and address any issues
+- [x] 3/06 - Subset meeting to discuss data intro
+- [x] 3/07 - Class; round table to discuss status and address any issues
+- [ ] 3/09 - Class; round table to review chart status and initial RandomForest modeling results
 
 A list of team tasks has been documented and can be viewed here: [Team Notes](https://github.com/FrankPassalacqua88/Olympic_Data_Analysis/blob/4bf8de5c99385051b0ad16081716bf3c53ba59b7/Admin/Team_Notes.docx)
 
