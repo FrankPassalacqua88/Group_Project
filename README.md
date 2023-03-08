@@ -57,7 +57,7 @@ A list of team tasks has been documented and can be viewed here: [Team Notes](ht
 
 An initial provisional machine learning model, Random Forest, was explored by several team members to test for viability.  This utilizes draft data and returns an initial accuracy rating of between 30-40%.  The team discussed opportunities to improve this rating by merging and focusing on different data.  Results of the improvements will be forthcoming as we progress.
 
-A link to the initial model can be found here: **ENTER LINK TO PROVISIONAL MACHINE LEARNING MODEL**
+A link to the initial model can be found here: [Provisional Machine Learning Model](https://github.com/FrankPassalacqua88/Olympic_Data_Analysis/blob/d011f619eddb42940fc4c106471e63a7da366733/fp/RandomForest-MedalPredictor.ipynb)
 
 ### Database 
 
