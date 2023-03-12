@@ -1,0 +1,51 @@
+// Filter data by year
+const selected_year = 2020;
+const df_filtered = df.filter(row => row['Year'] === selected_year).sort((a, b) => a['cumulative_medal_count'] - b['cumulative_medal_count']);
+
+// Create subplots with two rows and one column
+const fig = makeSubplots({
+  rows: 2,
+  cols: 1,
+  sharedXAxes: true
+});
+
+// Add first chart to subplot 1
+fig.addTrace({
+  x: df_filtered.map(row => row['Country_Name']),
+  y: df_filtered.map(row => row['GDP']),
+  name: 'GDP',
+  marker: {
+    color: 'lightsalmon'
+  }
+}, 1, 1);
+
+// Add second chart to subplot 2
+fig.addTrace({
+  x: df_filtered.map(row => row['Country_Name']),
+  y: df_filtered.map(row => row['cumulative_medal_count']),
+  name: 'Total Medals',
+  marker: {
+    color: 'indianred'
+  }
+}, 2, 1);
+
+// Add third chart to subplot 2
+fig.addTrace({
+  x: df_filtered.map(row => row['Country_Name']),
+  y: df_filtered.map(row => row['Total_Score']),
+  name: 'Total Score',
+  marker: {
+    color: 'red'
+  }
+}, 2, 1);
+
+// Update layout
+fig.updateLayout({
+  title: `Country GDP and Medal Count Vs Medal Score ${selected_year}`,
+  height: 600,
+  width: 1000,
+  barmode: 'group',
+  showlegend: false
+});
+
+fig.show();
