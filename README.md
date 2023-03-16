@@ -36,9 +36,9 @@ A list of references from where the original data was sourced is available via t
 
 The data exploration phase required that each member of the team roll up their sleeves and become acquainted with the data.  As we became familiar with our different sources, it became clear that certain files would be more beneficial than others to each of our individual tasks.  Although it had been cleansed, as we began to work with the data individually we also realized the data may have required additional modification, data merge or additional calculation to achieve those tasks.
 
-**Description of the Analyis Phase**
+**Description of the Analysis Phase**
 
-During the analyis phase of the project the team began by discussing the ideas we had for the questions we wanted to answer.  We then attempted to mock up what tools, data and outputs we'd be seeking to achieve.  Thru trial and error on code, correction and modification to code, and by listening to the feedback of the fellow team members we continued to see progress daily. 
+During the analysis phase of the project the team began by discussing the ideas we had for the questions we wanted to answer.  We then attempted to mock up what tools, data and outputs we'd be seeking to achieve.  Thru trial and error on code, correction and modification to code, and by listening to the feedback of the fellow team members we continued to see progress daily. 
 
 **Google Slides**
 
@@ -66,7 +66,7 @@ Additionally, the team has a rolling cycle of determining if/when meetings are n
 - [x] 3/09 - Class; round table to review chart status and initial RandomForest modeling results
 - [x] 3/14 - Class; issue resolution and Panel dashboard discussion
 - [x] 3/16 - Class; continue issue resolution and Panel dashboard to do's
-
+- [ ] 3/18 - Continue issue resolution and Panel dashboard to do's
 
 A list of team tasks has been documented and can be viewed here: [Team Notes](https://github.com/FrankPassalacqua88/Olympic_Data_Analysis/blob/4bf8de5c99385051b0ad16081716bf3c53ba59b7/Admin/Team_Notes.docx)
 
@@ -86,7 +86,7 @@ The final machine learning model and dashboard will primarily pull data in from 
 2. [Cleaning Data File 2](https://github.com/FrankPassalacqua88/Olympic_Data_Analysis/blob/42d9fbe2bd781425c091011fd1685999287671fa/wpf/Cleaning2.ipynb)
 3. [Cleaning Data File 3](https://github.com/FrankPassalacqua88/Olympic_Data_Analysis/blob/b93ee9b55bb98d825a0c2eb33b12fb89544c7920/wpf/Cleaning3.ipynb)
 
-Now that the files are ready for utlization they will be connected to the provisional machine learning model.
+Once the files were ready they were utilized to create multiple charts and have also been connected to the provisional machine learning model.
 
 ### Dashboard
 
