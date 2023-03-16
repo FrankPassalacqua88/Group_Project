@@ -2,6 +2,8 @@
 
 ## Overview
 
+This document serves as a high-level summary of the project, including the project description, data resources, presentation and status. 
+
 ### Presentation
 
 **Topic**
