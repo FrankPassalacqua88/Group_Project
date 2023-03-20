@@ -33,14 +33,17 @@ A list of references from where the original data was sourced is available via t
 3. Can the model determine if a hypothetical althlete would win?
 
 **Description of Data Exploration**
+
 WILL TO COMPLETE
 
 **Description of the Analysis Phase**
+
 MELINDA TO COMPLETE
 
 ### TOOLS
 
 Github, other - 
+
 LAURA TO COMPLETE
 
 ### MACHINE LEARNING MODEL
@@ -77,6 +80,8 @@ After preliminary discussion, we believed we would utilize an html website to de
 LAURA TO UPDATE UPON DASHBOARD COMPLETION
 ______________________________________________________________________________________________
 # Below for Reference - DOCUMENT A WIP
+
+**Description of Data Exploration**
 
 The data exploration phase required that each member of the team roll up their sleeves and become acquainted with the data.  As we became familiar with our different sources, it became clear that certain files would be more beneficial than others to each of our individual tasks.  Although it had been cleansed, as we began to work with the data individually we also realized the data may have required additional modification, data merge or additional calculation to achieve those tasks.
 
