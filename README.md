@@ -1,10 +1,10 @@
-# Group_Project
+# GROUP PROJECT
 
-## Overview
+## OVERVIEW
 
 This document serves as a high-level summary of the project, including the project description, data resources, presentation and status. 
 
-### Presentation
+### PRESENTATION
 
 **Topic**
 
@@ -38,12 +38,12 @@ WILL TO COMPLETE
 **Description of the Analysis Phase**
 MELINDA TO COMPLETE
 
-### Tools
+### TOOLS
 
 Github, other - 
 LAURA TO COMPLETE
 
-### Machine Learning Model
+### MACHINE LEARNING MODEL
 
 An initial provisional machine learning model, Random Forest, was explored by several team members to test for viability.  This utilizes draft data and returns an initial accuracy rating of between 30-40%.  The team discussed opportunities to improve this rating by merging and focusing on different data.  The team is hoping the feedback will move the model from a minimum viable product into a semi-final model, requiring only small tweaks thereafter.
 
@@ -53,7 +53,7 @@ A link to the model can be found here: [Provisional Machine Learning Model](http
 
 FRANK TO COMPLETE
 
-### Database 
+### DATABASE 
 
 The final machine learning model and dashboard will primarily pull data in from cleansed CSV files.  After the datasets were located and exported, the team evaluated how each of the components of data related to one another via an [ERD](https://github.com/FrankPassalacqua88/Olympic_Data_Analysis/blob/097e394fb11aaeb831c7b5a3930cc990cdd31402/images/ERD.png) and suggestions to cleanse and improve the data was discussed.  The cleansing was accomplished via Jupyter Notebook and Pandas and examples of how the data has been cleansed can be viewed via the below links:
 
@@ -64,7 +64,7 @@ The final machine learning model and dashboard will primarily pull data in from 
 Once the files were ready they were utilized to create multiple charts and have also been connected to the provisional machine learning model.
 LAURA TO REVISE WITH FINAL LINKS UPON REPOSITIORY CLEANUP
 
-### Dashboard
+### DASHBOARD
 
 After preliminary discussion, we believed we would utilize an html website to deliver the final presentation.  After additional discussion and research, we are now segwaying to test code using Panel as the dashboard.  We do have preliminary working models, however, in each instance we have hurdles to overcome to achieve full functionality.  For example, the widgets are not properly interactiving with the charts, or the team is unsatisfied with the dashboard layout.  There is much more to learn and achieve here prior to completion. To date we have achieved the following DRAFTS: 
 
