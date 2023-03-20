@@ -1,10 +1,10 @@
-# Group_Project
+# GROUP PROJECT
 
-## Overview
+## OVERVIEW
 
 This document serves as a high-level summary of the project, including the project description, data resources, presentation and status. 
 
-### Presentation
+### PRESENTATION
 
 **Topic**
 
@@ -33,6 +33,50 @@ A list of references from where the original data was sourced is available via t
 3. Can the model determine if a hypothetical althlete would win?
 
 **Description of Data Exploration**
+WILL TO COMPLETE
+
+**Description of the Analysis Phase**
+MELINDA TO COMPLETE
+
+### TOOLS
+
+Github, other - 
+LAURA TO COMPLETE
+
+### MACHINE LEARNING MODEL
+
+An initial provisional machine learning model, Random Forest, was explored by several team members to test for viability.  This utilizes draft data and returns an initial accuracy rating of between 30-40%.  The team discussed opportunities to improve this rating by merging and focusing on different data.  The team is hoping the feedback will move the model from a minimum viable product into a semi-final model, requiring only small tweaks thereafter.
+
+Over the course of weeks 2 and 3, significant progress was achieved. In order to create a high accuracy machine learning model seven features were chosen from the data set. The features selected are age, sex, height, weight, “isTeamSport”, GDP, and population. These features were selected because they are defining factors that determines an athlete’s success. To create this dataframe of features the data was merged from three tables. All NaN values have been dropped from the 'Height(cm)', 'Weight(kg)', 'Age', 'Population', and 'GDP' columns. The target column, medals, was mapped to either be a “1” for winning a medal or “0” for not getting a medal. The data was split into test and training sets using “train_test_split”. Due the large discrepancy between the athletes that did and did not win a medal “RandomOverSampler” was used to even out the data set. The “RandomForestClassifier” model was chosen due to its high accuracy. The model is now considered functional and includes a confusion matrix and accuracy score the team is satisfied with.  With additional data cleansing and modification, as well as adjustments to code, the accuracy is now sitting at +90%.
+
+A link to the model can be found here: [Provisional Machine Learning Model](https://github.com/FrankPassalacqua88/Olympic_Data_Analysis/blob/d011f619eddb42940fc4c106471e63a7da366733/fp/RandomForest-MedalPredictor.ipynb)
+
+FRANK TO COMPLETE
+
+### DATABASE 
+
+The final machine learning model and dashboard will primarily pull data in from cleansed CSV files.  After the datasets were located and exported, the team evaluated how each of the components of data related to one another via an [ERD](https://github.com/FrankPassalacqua88/Olympic_Data_Analysis/blob/097e394fb11aaeb831c7b5a3930cc990cdd31402/images/ERD.png) and suggestions to cleanse and improve the data was discussed.  The cleansing was accomplished via Jupyter Notebook and Pandas and examples of how the data has been cleansed can be viewed via the below links:
+
+1. [Cleaning Data File 1](https://github.com/FrankPassalacqua88/Olympic_Data_Analysis/blob/42d9fbe2bd781425c091011fd1685999287671fa/wpf/Cleaning.ipynb)
+2. [Cleaning Data File 2](https://github.com/FrankPassalacqua88/Olympic_Data_Analysis/blob/42d9fbe2bd781425c091011fd1685999287671fa/wpf/Cleaning2.ipynb)
+3. [Cleaning Data File 3](https://github.com/FrankPassalacqua88/Olympic_Data_Analysis/blob/b93ee9b55bb98d825a0c2eb33b12fb89544c7920/wpf/Cleaning3.ipynb)
+
+Once the files were ready they were utilized to create multiple charts and have also been connected to the provisional machine learning model.
+LAURA TO REVISE WITH FINAL LINKS UPON REPOSITIORY CLEANUP
+
+### DASHBOARD
+
+After preliminary discussion, we believed we would utilize an html website to deliver the final presentation.  After additional discussion and research, we are now segwaying to test code using Panel as the dashboard.  We do have preliminary working models, however, in each instance we have hurdles to overcome to achieve full functionality.  For example, the widgets are not properly interactiving with the charts, or the team is unsatisfied with the dashboard layout.  There is much more to learn and achieve here prior to completion. To date we have achieved the following DRAFTS: 
+
+- [x] Created a visual dashboard storyboard, available on Google Slides:  [Dashboard](https://1drv.ms/p/s!AsgKvHxaT8bpmChrwYOLs8rwNU-l?e=STcr98)
+- [x] Can describe the tools that will be used to create the final dashboard, as seen on the storyboard and achieved via usage of the following: 
+    1. Jupiter Notebook to house code
+    2. Libraries including: Pandas, Hvplot, RandomForest, etc.
+    3. Panel to be used for the dashboard
+- [x] Final location of interactive elements are a work in progress but the goal is to include dropdown menus and animation frames that provide time lapses over portions of the data
+LAURA TO UPDATE UPON DASHBOARD COMPLETION
+______________________________________________________________________________________________
+# Below for Reference - DOCUMENT A WIP
 
 The data exploration phase required that each member of the team roll up their sleeves and become acquainted with the data.  As we became familiar with our different sources, it became clear that certain files would be more beneficial than others to each of our individual tasks.  Although it had been cleansed, as we began to work with the data individually we also realized the data may have required additional modification, data merge or additional calculation to achieve those tasks.
 
@@ -70,31 +114,8 @@ Additionally, the team has a rolling cycle of determining if/when meetings are n
 
 A list of team tasks has been documented and can be viewed here: [Team Notes](https://github.com/FrankPassalacqua88/Olympic_Data_Analysis/blob/4bf8de5c99385051b0ad16081716bf3c53ba59b7/Admin/Team_Notes.docx)
 
-### Machine Learning Model
 
-An initial provisional machine learning model, Random Forest, was explored by several team members to test for viability.  This utilizes draft data and returns an initial accuracy rating of between 30-40%.  The team discussed opportunities to improve this rating by merging and focusing on different data.  The team is hoping the feedback will move the model from a minimum viable product into a semi-final model, requiring only small tweaks thereafter.
 
-Over the course of weeks 2 and 3, significant progress was achieved. In order to create a high accuracy machine learning model seven features were chosen from the data set. The features selected are age, sex, height, weight, “isTeamSport”, GDP, and population. These features were selected because they are defining factors that determines an athlete’s success. To create this dataframe of features the data was merged from three tables. All NaN values have been dropped from the 'Height(cm)', 'Weight(kg)', 'Age', 'Population', and 'GDP' columns. The target column, medals, was mapped to either be a “1” for winning a medal or “0” for not getting a medal. The data was split into test and training sets using “train_test_split”. Due the large discrepancy between the athletes that did and did not win a medal “RandomOverSampler” was used to even out the data set. The “RandomForestClassifier” model was chosen due to its high accuracy. The model is now considered functional and includes a confusion matrix and accuracy score the team is satisfied with.  With additional data cleansing and modification, as well as adjustments to code, the accuracy is now sitting at +90%.
 
-A link to the model can be found here: [Provisional Machine Learning Model](https://github.com/FrankPassalacqua88/Olympic_Data_Analysis/blob/d011f619eddb42940fc4c106471e63a7da366733/fp/RandomForest-MedalPredictor.ipynb)
 
-### Database 
 
-The final machine learning model and dashboard will primarily pull data in from cleansed CSV files.  After the datasets were located and exported, the team evaluated how each of the components of data related to one another via an [ERD](https://github.com/FrankPassalacqua88/Olympic_Data_Analysis/blob/097e394fb11aaeb831c7b5a3930cc990cdd31402/images/ERD.png) and suggestions to cleanse and improve the data was discussed.  The cleansing was accomplished via Jupyter Notebook and Pandas and examples of how the data has been cleansed can be viewed via the below links:
-
-1. [Cleaning Data File 1](https://github.com/FrankPassalacqua88/Olympic_Data_Analysis/blob/42d9fbe2bd781425c091011fd1685999287671fa/wpf/Cleaning.ipynb)
-2. [Cleaning Data File 2](https://github.com/FrankPassalacqua88/Olympic_Data_Analysis/blob/42d9fbe2bd781425c091011fd1685999287671fa/wpf/Cleaning2.ipynb)
-3. [Cleaning Data File 3](https://github.com/FrankPassalacqua88/Olympic_Data_Analysis/blob/b93ee9b55bb98d825a0c2eb33b12fb89544c7920/wpf/Cleaning3.ipynb)
-
-Once the files were ready they were utilized to create multiple charts and have also been connected to the provisional machine learning model.
-
-### Dashboard
-
-After preliminary discussion, we believed we would utilize an html website to deliver the final presentation.  After additional discussion and research, we are now segwaying to test code using Panel as the dashboard.  We do have preliminary working models, however, in each instance we have hurdles to overcome to achieve full functionality.  For example, the widgets are not properly interactiving with the charts, or the team is unsatisfied with the dashboard layout.  There is much more to learn and achieve here prior to completion. To date we have achieved the following DRAFTS: 
-
-- [x] Created a visual dashboard storyboard, available on Google Slides:  [Dashboard](https://1drv.ms/p/s!AsgKvHxaT8bpmChrwYOLs8rwNU-l?e=STcr98)
-- [x] Can describe the tools that will be used to create the final dashboard, as seen on the storyboard and achieved via usage of the following: 
-    1. Jupiter Notebook to house code
-    2. Libraries including: Pandas, Hvplot, RandomForest, etc.
-    3. Panel to be used for the dashboard
-- [x] Final location of interactive elements are a work in progress but the goal is to include dropdown menus and animation frames that provide time lapses over portions of the data
