@@ -54,9 +54,9 @@ Similar with China, we see their largest population status confirmed and we also
 
 ![image](https://user-images.githubusercontent.com/114771735/226721247-fd3d7cd9-e871-4741-a0aa-6729f9f67cfb.png)
 
-We also took a look at Jamaica. Although their medal score is relatively low, they outperformed based on their low GDP. We can see, in relation to it's populaton and GDP, this country has a strong GDP Per Capita score. 
+We also took a look at Australia. Although their GDP is lower, they outperformed based on their medal score. We can see, in relation to it's populaton and GDP, this country has a strong GDP Per Capita score. 
 
-![image](https://user-images.githubusercontent.com/114771735/226722707-a6afb42e-4ddf-4d9f-8a02-be78a263c319.png)
+![image](https://user-images.githubusercontent.com/114771735/226724855-40cbc10c-50ab-4ac2-928d-cd09a0d4afb2.png)
 
 
 ### TOOLS
