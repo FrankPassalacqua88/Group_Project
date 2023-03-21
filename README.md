@@ -38,7 +38,26 @@ WILL TO COMPLETE
 
 **Description of the Analysis Phase**
 
-MELINDA TO COMPLETE
+To determine whether there is a correlation between the population, GDP and medal count, we gathered the country’s stats from 1960 to 2020 and created a choropleth map utilizing Plotly’s template. We also included an overlay for scatter plots representing accumulated medal wins. As an interactive component that also serves as a story-telling, we included an animation frame demonstrating the world’s growth year after year. To further drive our findings, we included a rankings list of countries with top GDP and Population compared to their medal score. 
+ 
+The population map shows China and India leading in size, however, this is not the case  for medal scores.  India being the second leading population has a very low medal score. From our analysis, we concluded that population size does not influence medal wins. 
+
+![image](https://user-images.githubusercontent.com/114771735/226721638-ae579b43-2d5e-4f15-b959-4558963e7634.png)
+The GDP map tells a different story.  From the rankings list, we can see the US leading in GDP as well as medal scores for 2020. GDP and medal wins are followed by China, Japan and UK which shows a strong correlation between GDP and medal scores. Looking at each Summer event per year, we came to the same conclusion. 
+![image](https://user-images.githubusercontent.com/114771735/226721035-d9abdb5d-5e26-4b73-908b-80cafc2093d4.png)
+
+Diving deeper into our analysis, we wanted see how a particular country stacked up to the rest of the world. With the data we gathered on population, GDP, GDP per capita and medal scores, we created a normalized graph from 1960 to 2020. As we saw in the choropleth map above, we know the US is the leading country in GDP with 2020 being the largest at $21 trillion. From the below, this is further confirmed with 2020 being at the max 1 value. 
+
+![image](https://user-images.githubusercontent.com/114771735/226721226-95b9229f-df14-48a9-be94-b55d9aa1338e.png)
+
+Similar with China, we see their largest population status confirmed and we also see around 2004 their GDP begins to rapidly climb.  
+
+![image](https://user-images.githubusercontent.com/114771735/226721247-fd3d7cd9-e871-4741-a0aa-6729f9f67cfb.png)
+
+We also took a look at Jamaica. Although their medal score is relatively low, they outperformed based on their low GDP. We can see, in relation to it's populaton and GDP, this country has a strong GDP Per Capita score. 
+
+![image](https://user-images.githubusercontent.com/114771735/226722707-a6afb42e-4ddf-4d9f-8a02-be78a263c319.png)
+
 
 ### TOOLS
 
