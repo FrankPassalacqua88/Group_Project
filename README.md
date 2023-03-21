@@ -71,11 +71,15 @@ An initial provisional machine learning model, Random Forest, was explored by se
 
 In order to create a high accuracy machine learning model ten features were chosen from the data set. The features selected are age, sex, height, weight, year the event was held, if the event is a team sport, GDP, GDP per capita, precent of world population, and population. These features were selected because they are likely important factors that determines an athlete’s success. Each individual factor falls into one of two categories: physical attributes or environmental factors. The age, height, sex, and weight factors were chosen to define the physical attribute, and the remainder of the model’s factors fall into environmental factors. To create this dataframe of features the data was merged from four tables (See “Description of Data Source” for more details regarding the data’s origin). The “percent of world population” and “GDP” columns were calculated from existing dataset. Early Olympic events have major gaps in record keeping as well as a lack of recording of environmental factors. Only athletes with complete data sets were used for training the model. Sports with less than 1000 records after the aforementioned preprocessing were not modeled to avoid overfitting. The target column, medals, was mapped to either be a “1” for winning a medal or “0” for failing to medal. The data was split into test and training sets using scikit-learn’s “train_test_split”. Due the large discrepancy between the athletes that did and did not win a medal “RandomOverSampler” was used to even out the training data set. The “RandomForestClassifier” model was chosen due to its high accuracy. Improvements over the previous iteration of the model included the addition of the GDP per capita and precent of world population factors. A model was created for each individual sport as the ideal physical and environmental factors likely differ across sports. The confusion matrix and classification report are shown below. The confusion matrix shows a very low rate of false positives. The precision, recall, and f1-score for predicting if an athlete would fail to medal were .97, .96, and .97 respectively. Predicting if an athlete succeeded in medaling was more difficult for the model with the precision, recall, and f1-score of .79, .85, and .81 respectively. The lower precision, recall, and f1-score when predicting if a athlete succeeded in medaling is a good sign the model is not over trained to find medaling athletes. 
 
+Confusion Matrix:
+
 ![image](images/Confusion_Matrix.png)
+
+Classification Report:
 
 ![image](images/Classification_Report.png)
 
-A link to the model can be found here: [Provisional Machine Learning Model](https://github.com/FrankPassalacqua88/Olympic_Data_Analysis/blob/d011f619eddb42940fc4c106471e63a7da366733/fp/RandomForest-MedalPredictor.ipynb)
+A link to the model can be found here: [Machine Learning Model](https://github.com/FrankPassalacqua88/Olympic_Data_Analysis/blob/d011f619eddb42940fc4c106471e63a7da366733/fp/RandomForest-MedalPredictor.ipynb)
 
 FRANK TO COMPLETE
 
