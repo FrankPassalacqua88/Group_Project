@@ -86,9 +86,9 @@ We also took a look at Australia. Although their GDP is lower, they outperformed
 
 ### TOOLS
 
-Github, other - 
+A list of the tools primarily used to complete the project are included below:
 
-LAURA TO COMPLETE
+![image](images/Project_tools.png)
 
 ### MACHINE LEARNING MODEL
 
@@ -120,6 +120,21 @@ The first two tabs (Seasons & Athlete Bio's) are from our initial analysis and l
 ![image](images/Dashboard_Summary.png)
 
 Our efforts were concluded with a 12 minute [Presentation](https://1drv.ms/p/s!AsgKvHxaT8bpmC03mzbFumuZ0agN?e=F3RH36) and an interactive live demo of the [Dashboard](https://github.com/FrankPassalacqua88/Olympic_Data_Analysis/blob/main/Dashboard/Dashboard_Demo.mp4).
+
+
+### RECOMMENDATIONS FOR FUTURE ANALYSIS
+
+While the team successfully completed our objectives there are things we learned worked well, and also areas for improvment.
+
+What worked well?
+- Developing test models
+- Levaraging each other's expertise
+
+Future enhancements:
+- Improved comprehension of dashboard tools and library compatibility
+- Utilization of Github branches and merging
+
+
 
 
 
