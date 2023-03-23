@@ -120,9 +120,6 @@ The first two tabs, Seasons & Athlete Bio's, are from our initial analysis and l
 
 ![image](images/Dashboard_Summary.png)
 
-Our efforts were concluded with a 12 minute [Presentation](https://1drv.ms/p/s!AsgKvHxaT8bpmC03mzbFumuZ0agN?e=F3RH36) and an interactive live demo of the [Dashboard](https://github.com/FrankPassalacqua88/Olympic_Data_Analysis/blob/main/Dashboard/Dashboard_Demo.mp4).
-
-
 ### RECOMMENDATIONS FOR FUTURE ANALYSIS
 
 While the team successfully completed our objectives there are things we learned worked well, and also areas for improvment.
@@ -136,9 +133,9 @@ Future enhancements:
 - Utilization of Github branches and merging
 
 ### SUMMARY
-[x] Succeeded in answering 3 critical questions pertaining to Olympic medaling
-[x] Developed proficiency in multiple tools including Jupyter Notebook, Python, Scikit-learn, Plotly and Panel Dashboard
-[x] Cconcluded efforts with a 12 minute [Presentation](https://1drv.ms/p/s!AsgKvHxaT8bpmC03mzbFumuZ0agN?e=F3RH36) and an interactive live demo of the [Dashboard](https://github.com/FrankPassalacqua88/Olympic_Data_Analysis/blob/main/Dashboard/Dashboard_Demo.mp4).
+- [x] Succeeded in answering 3 critical questions pertaining to Olympic medaling
+- [x] Developed proficiency in multiple tools including Jupyter Notebook, Python, Scikit-learn, Plotly and Panel Dashboard
+- [x] Cconcluded efforts with a 12 minute [Presentation](https://1drv.ms/p/s!AsgKvHxaT8bpmC03mzbFumuZ0agN?e=F3RH36) and an interactive live demo of the [Dashboard](https://github.com/FrankPassalacqua88/Olympic_Data_Analysis/blob/main/Dashboard/Dashboard_Demo.mp4).
 
 
 
