@@ -116,7 +116,7 @@ A link to the model can be found here: [Machine Learning Model](https://github.c
 
 Panel Dashboard was utilized to store our interactive graphs and charts.  This included a sidebar toggle with dropdown navigation and a description of each tab.
 
-The first two tabs (Seasons & Athlete Bio's) are from our initial analysis and learning the data.  The World Map and Country Stats tab were used in answering question 1. Is there a correlation between a country's economic factors (GDP), demographics (population) and medal count?  Finally, the Predictions tab was the Features Important and Classification report from our Machine Learning Model.
+The first two tabs, Seasons & Athlete Bio's, are from our initial analysis and learning the data.  The World Map and Country Stat tabs were used in answering question 1. Is there a correlation between a country's economic factors (GDP), demographics (population) and medal count?  Finally, the Predictions tab includes a summary of the Feature Importances by Sport and a summary Classification report from our Machine Learning Model.
 
 ![image](images/Dashboard_Summary.png)
 
@@ -135,11 +135,10 @@ Future enhancements:
 - Improved comprehension of dashboard tools and library compatibility
 - Utilization of Github branches and merging
 
-
-
-
-
-
+### SUMMARY
+[x] Succeeded in answering 3 critical questions pertaining to Olympic medaling
+[x] Developed proficiency in multiple tools including Jupyter Notebook, Python, Scikit-learn, Plotly and Panel Dashboard
+[x] Cconcluded efforts with a 12 minute [Presentation](https://1drv.ms/p/s!AsgKvHxaT8bpmC03mzbFumuZ0agN?e=F3RH36) and an interactive live demo of the [Dashboard](https://github.com/FrankPassalacqua88/Olympic_Data_Analysis/blob/main/Dashboard/Dashboard_Demo.mp4).
 
 
 
