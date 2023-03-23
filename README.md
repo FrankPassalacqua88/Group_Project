@@ -89,7 +89,7 @@ We also took a look at Australia. Although their GDP is lower, they outperformed
 
 A list of the tools primarily used to complete the project are included below:
 
-![image](images/Project_tools.png)
+<img src="images/Project_tools.png" alt="Project tool image" style="width:300px;height:300px;">
 
 ### MACHINE LEARNING MODEL
 
