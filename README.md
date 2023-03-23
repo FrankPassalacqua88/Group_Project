@@ -34,7 +34,29 @@ A list of references from where the original data was sourced is available via t
 
 **Description of Data Exploration**
 
-WILL TO COMPLETE
+When we were initially gathering data for this analysis we were quick to find datasets about country GDPs, populations, medal counts, and Olympic athelte bios. We soon learned that, while easy to find, answering the questions we raised required some finessing of the data.  
+
+As an example, one of the parameters needed for questions two and three was age. The problem was the dataframe with most of the athelte info only had the birthdate (Year, Month, Day), not their age when they performed at the Olympics. However, another dataframe, without their birthdate, did provide the year they performed at the Olympics. Using the Python libray Pandas, here are the initial steps taken to determine the ages of the athletes:
+
+1.  Using the `split` function on the birthdate to turn it into a list.
+2.  Creating a new dataframe from the list and using the `tolist` function on it to separate them into new columns,then dropping the Month and Day columns whilst keeping the Year column.
+3. `Concatenating` the two dataframes together. 
+
+A separte dataframe containing the year the atheltes performed at the Olympics was then read in. After repeating steps 1-3 for this dataframe on the year column, it was finally time to find the age of the athletes. The code to find it is as follows: 
+
+```
+merge_df = pd.merge(df1,df2, on = 'Athlete_ID')
+
+merge_df['Birth_Year'] = pd.to_numeric(merge_df['Birth_Year'], errors = 'coerce')
+
+merge_df['Year'] = merge_df['Year'].astype('int64', errors = 'ignore')
+
+merge_df['Age'] = merge_df['Year'] - merge_df['Birth_Year'] 
+```
+
+These lines of code tell the two dataframes to merge together on a specified column(`Athlete_ID`). Then, since columns `Birth_Year` and `Year` were strings due to the `split` function, they needed to be converted to integers using the `to_numeric` and `astype` functions, respectively. Since some of the rows had 'N/A' string values, errors had to be either coerced or ignored to run the code properly. Finally, a new column named `Age` was created and filled with values by subtracting the `Birth_Year` column from the `Year` column. Now every athlete that had their birthdate information had their age for when they participated at the Olympics.
+
+After the data was transformed and cleaned, we set about creating visualizations from these datasets through graphs, images, and videos. The visualizations were made with the intention of showing the outcomes to our questions and provide extra insights into what we found in the data.  
 
 **Description of the Analysis Phase**
 
