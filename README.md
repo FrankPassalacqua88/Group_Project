@@ -116,7 +116,7 @@ A link to the model can be found here: [Machine Learning Model](Mech_Learning/Ra
 
 Panel Dashboard was utilized to store our interactive graphs and charts.  This included a sidebar toggle with dropdown navigation and a description of each tab.
 
-The first two tabs, Seasons & Athlete Bio's, are from our initial analysis and learning the data.  The World Map and Country Stat tabs were used in answering question 1. Is there a correlation between a country's economic factors (GDP), demographics (population) and medal count?  Finally, the Predictions tab includes a summary of the Feature Importances by Sport and a summary Classification report from our Machine Learning Model.
+The first two tabs, Seasons & Athlete Bio's, are from our initial analysis and learning the data.  The World Map and Country Stat tabs were used in answering question 1. Is there a correlation between a country's economic factors (GDP), demographics (population) and medal count?  Lastly, the Predictions tab includes a summary of the Feature Importances by Sport and a summary Classification report from our Machine Learning Model.
 
 ![image](images/Dashboard_Summary.png)
 
