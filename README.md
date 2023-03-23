@@ -31,6 +31,7 @@ A list of references from where the original data was sourced is available via t
 3. Can the model determine if a hypothetical althlete would win?
 
 **Description of Data Exploration**
+
 Below is a summary of our key data exploration steps:
 
 ![image](images/Data_Exploration.png)
