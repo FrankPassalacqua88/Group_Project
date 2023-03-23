@@ -1,0 +1,81 @@
+Athlete_bio
+-
+athlete_id int pk fk -<  Athlete_event_results.athlete_id
+name str
+sex str
+born date
+height float
+weight int
+country str
+country_noc str
+description str
+special_notes str
+
+Athlete_event_results
+-
+edition str
+edition_id int pk
+country_noc str
+sport str
+event str
+result_id int pk
+athlete str
+athlete_id int pk
+pos str
+medal str
+
+
+Games_medal_tally
+-
+edition str
+edition_id int pk
+year date
+country str
+country_noc str
+gold int
+silver int
+bronze int
+total int
+
+Results
+-
+result_id int pk FK -< Athlete_event_results.result_id
+event_title str
+edition str
+edition_id int pk
+sport str
+sport_url str
+result_location str
+result_participants str
+result_format str
+result_detail str
+
+Country
+-
+country_noc str pk FK -< Country_pop.country_noc  FK -< Country_GDP.country_noc FK -< Athlete_bio.country_noc FK -< Athlete_event_results.country_noc FK -< Games_medal_tally.country_noc 
+country str
+
+Games
+-
+edition str
+edition_id int pk fk -< Athlete_event_results.edition_id fk -< Results.edition_id fk -< Games_medal_tally.edition_id
+edition_url str
+season str
+year date
+city str
+country_flag_url str
+country_noc str
+start_date date
+end_date date
+
+Country_GDP
+-
+country_noc str
+country str
+GDP int
+
+Country_pop
+-
+country_noc str
+country str
+Population int
