@@ -109,7 +109,7 @@ Classification Report:
 
 ![image](images/Classification_Report.png)
 
-A link to the model can be found here: [Machine Learning Model](https://github.com/FrankPassalacqua88/Olympic_Data_Analysis/blob/d011f619eddb42940fc4c106471e63a7da366733/fp/RandomForest-MedalPredictor.ipynb)
+A link to the model can be found here: [Machine Learning Model](Mech_Learning/RandomForest-MedalPredictor.ipynb)
 
 
 ### DASHBOARD
