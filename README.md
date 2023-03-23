@@ -34,9 +34,9 @@ A list of references from where the original data was sourced is available via t
 
 Below is a summary of our key data exploration steps:
 
-![image](images/Data_Exploration.png)
+<img src="images/Data_Exploration.png" alt="Data Exploration Image" style="width:500px;height:300px;">
 
-The final machine learning model and dashboard will primarily pull data in from cleansed CSV files.  After the datasets were located and exported, the team evaluated how each of the components of data related to one another via an [ERD](https://github.com/FrankPassalacqua88/Olympic_Data_Analysis/blob/097e394fb11aaeb831c7b5a3930cc990cdd31402/images/ERD.png) and suggestions to cleanse and improve the data was discussed.
+After the datasets were located and exported, the team evaluated how each of the components of data related to one another via an [ERD](https://github.com/FrankPassalacqua88/Olympic_Data_Analysis/blob/097e394fb11aaeb831c7b5a3930cc990cdd31402/images/ERD.png) and suggestions to cleanse and improve the data was discussed.
 
 When we were initially gathering data for this analysis we were quick to find datasets about country GDPs, populations, medal counts, and Olympic athelte bios. We soon learned that, while easy to find, answering the questions we raised required some finessing of the data.  
 
